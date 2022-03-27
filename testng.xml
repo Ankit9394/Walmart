@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="walmarttest" parallel="tests">
+    <listeners>
+        <listener class-name="extentReport.Extentreport_listener"/>
+    </listeners>
+
+    <test name="EcommWalmart">
+        <classes>
+            <class name="EcommWal_Test_Pages.EcommWal_Sign_Up_Test"/>
+            <class name="EcommWal_Test_Pages.EcommWal_Sign_In_Test"/>
+            <class name="EcommWal_Test_Pages.EcommWal_My_Account_Test"/>
+            <class name="EcommWal_Test_Pages.Ecomm_Address_page_Test"/>
+            <class name="EcommWal_Test_Pages.Ecomm_History_Page_Test"/>
+            <class name="EcommWal_Test_Pages.Ecomm_SearchOrder_Test"/>
+            <class name="EcommWal_Test_Pages.EcommWal_My_List_Test"/>
+            <class name="EcommWal_Test_Pages.EcommWal_MyRecommendation_Test"/>
+
+
+
+        </classes>
+    </test>
+</suite>
